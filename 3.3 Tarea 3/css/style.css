@@ -1,0 +1,26 @@
+.carousel-inner img {
+    width: 70%; /* Establece un ancho del 100% para todas las imágenes */
+    height: auto; /* Mantiene la proporción original de altura */
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .theory {
+    width: 30%;
+    text-align: justify;
+  }
+  .non {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 24px;
+    color: #007bff;
+  }
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }

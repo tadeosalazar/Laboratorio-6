@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <!-- Bootstrap CSS -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+ <!-- FancyBox CSS -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+ <!-- Tu CSS personalizado -->
+ <link rel="stylesheet" href="css/style2.css">
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">3.1 Tarea 1</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <ul class="nav nav-pills nav-fill">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  href="pagina1.html">Pagina 1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="pagina2.html">Pagina 2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pagina3.html">Pagina 3</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--Inicio del body main de tal-->
+  <div style="text-align: center; font-family: cursive;">
+    <h1>La parte turbia de Club Penguin</h1>
+  </div>
+  
+  <!--cards-->
+  <div class="container mt-4">
+    <div class="card-deck"> <!-- Clase card-deck para organizar las tarjetas -->
+      <div class="card">
+        <img src="img/clubp2sangre.png" class="card-img-top" alt="Imagen 1">
+        <div class="card-body">
+          <h5 class="card-title">The assasin penguin</h5>
+          <p class="card-text">Todo ocurrió en un 12 de julio del 2010. Y alguien que últimamente no ha jugado CP había descubierto un juego en un disco llamado "the assasin penguin" o el pingüino asesino en español gracias a un amigo suyo que le había enviado información de el en hotmail. El asunto del mensaje era leerlo lo antes posible. Y que era un disco que solía ser un proyecto abandonado como idea para una fiesta. Y por su fracaso se volvió un juego como el de la EPF, Día de juegos y la venganza de Herbert.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/clubp3sangre.webp" class="card-img-top" alt="Imagen 2">
+        <div class="card-body">
+          <h5 class="card-title">Sala sangrienta</h5>
+          <p class="card-text">Un tranquilo día en Club Penguin, los pingüinos notaron algo inusual. Un cuarto con una computadora, en la que alguien había dejado Club Penguin encendido, estaba rodeado de un extraño charco de sangre. Además, el ID del jugador, que normalmente se muestra encima del pingüino, había desaparecido por completo. Ningún pingüino reconoció al pingüino desaparecido, y nadie parecía conocer su identidad. Se corrió la voz rápidamente sobre este extraño incidente.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/clubp8sangre.jpg" class="card-img-top" alt="Imagen 3">
+        <div class="card-body">
+          <h5 class="card-title">Sin ideas</h5>
+          <p class="card-text">El boceto original de un pingüino, míralo todo turbio y feo.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Imagen oculta -->
+<img id="scaryImage" style="display: none;" src="img/scary.webp" data-fancybox data-caption="Imagen Scary Jump" />
+
+
+  <!-- Botón de Bootstrap -->
+  <button id="start-download" class="btn btn-primary">¡Clickea si te atreves!</button>
+
+  <!-- Barra de progreso de Bootstrap -->
+  <div class="progress mt-4">
+    <div id="progress-bar" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+  </div>
+  
+  <button id="start-download" class="btn btn-primary">Iniciar Descarga</button>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <!-- FancyBox JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+  <!-- Tu JavaScript personalizado -->
+  <script src="js/script.js"></script>
+  </body>
+</html>
